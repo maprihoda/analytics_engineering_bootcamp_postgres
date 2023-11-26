@@ -1,0 +1,12 @@
+analytics_engineering_bootcamp_postgres:
+  outputs:
+    dev:
+      dbname: analytics_engineering_bootcamp_postgres
+      host: localhost
+      pass: <password>
+      port: 5432
+      schema: dbt_<username>
+      threads: 1
+      type: postgres
+      user: <username>
+  target: dev
